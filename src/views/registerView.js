@@ -1,0 +1,31 @@
+class RegisterView {
+  render() {
+    return `
+      <div>
+        <h2>S'inscrire</h2>
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmPassword">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    `;
+  }
+
+  run() {
+    const connectionElement = document.getElementById('app');
+    connectionElement.innerHTML = this.render();
+  }
+}
+
+export default RegisterView;
