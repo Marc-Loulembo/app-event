@@ -3,6 +3,11 @@ import birthday from '../assets/anniversaire.jpg';
 import viedejeunefille from '../assets/viedejeunefille.jpg';
 
 class CreateEvent {
+  constructor() {
+    this.createEventForm = document.querySelector('#app');
+    this.run();
+  }
+
   render() {
     return `
       <div class="cards-parent">
@@ -46,8 +51,7 @@ class CreateEvent {
   }
 
   run() {
-    const createEventForm = document.querySelector('#app');
-    createEventForm.innerHTML = this.render();
+    this.createEventForm.innerHTML = this.render();
   }
 }
 

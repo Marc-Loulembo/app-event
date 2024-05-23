@@ -1,8 +1,8 @@
 import Router from './Router';
 import RegisterController from './controllers/RegisterController';
 import LogInController from './controllers/LogInController';
-import Home from './controllers/Home';
 import CreateEvent from './views/createEvent';
+import Home from './controllers/Home';
 import Calendar from './views/calendarView';
 
 import './index.scss';

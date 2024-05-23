@@ -1,7 +1,6 @@
 import NavBarView from '../views/navBarView';
-// import initializeCalendar from '../views/calendarView';
-import HomeView from '../views/homeView';
 import CreateEvent from '../views/createEvent';
+import HomeView from '../views/homeView';
 
 class Home {
   constructor() {
@@ -12,8 +11,8 @@ class Home {
   }
 
   run() {
-    this.navBarView.run();
     this.CreateEvent.run();
+    this.navBarView.run();
     this.HomeView.run();
   }
 }
