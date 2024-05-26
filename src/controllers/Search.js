@@ -1,6 +1,5 @@
 import axios from 'axios';
-
-import viewNav from '../views/nav';
+import viewNav from '../views/navBarView';
 import viewListUsers from '../views/list-users';
 
 const Search = class {

@@ -18,7 +18,7 @@ class RegisterController {
 
         <label>
             <input class="input" type="text" name="name" placeholder="" required="">
-            <span>Lastname</span>
+            <span>Name</span>
         </label>
     </div>  
             
@@ -33,11 +33,11 @@ class RegisterController {
     </label> 
         
     <label>
-        <input class="input" type="password" placeholder="" required="">
+        <input class="input" type="password" name="password" placeholder="" required="">
         <span>Password</span>
     </label>
     <label>
-        <input class="input" type="password" placeholder="" required="">
+        <input class="input" type="password" name="password" placeholder="" required="">
         <span>Confirm password</span>
     </label>
     <button class="submit">Submit</button>

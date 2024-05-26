@@ -11,8 +11,8 @@ class Home {
   }
 
   run() {
-    this.CreateEvent.run();
     this.navBarView.run();
+    this.CreateEvent.run();
     this.HomeView.run();
   }
 }
